@@ -1,0 +1,22 @@
+{
+  "name": "css-bootstrap-utilities",
+  "version": "1.0.0",
+  "description": "For faster mobile-friendly and responsive development, Bootstrap includes dozens of utility classes for showing, hiding, aligning, and spacing content.",
+  "files": [
+    "utilities.css",
+    "utilities.min.css"
+  ],
+  "keywords": [
+    "css",
+    "utilities",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css-cli": "^5.3.0"
+  },
+  "scripts": {
+    "build": "npm run minify",
+    "minify": "cleancss utilities.css -o utilities.min.css"
+  }
+}
